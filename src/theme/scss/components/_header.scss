@@ -1,0 +1,22 @@
+.navigation {
+  background-color: $tertiary;
+  .navigation__container {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end !important;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .navbar-toggler-icon,
+  a {
+    color: $primary;
+  }
+  a {
+    font-weight: 700;
+  }
+  .navigation__icon {
+    height: 60px;
+  }
+}

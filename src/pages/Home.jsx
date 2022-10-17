@@ -1,7 +1,12 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <div>
+      <Container />
+    </div>
+  );
 };
 
 export default Home;
