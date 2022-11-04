@@ -14,7 +14,10 @@ const Header = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <HiOutlineMenu className="navbar-toggler-icon" />
           </Navbar.Toggle>
-          <Navbar.Collapse id="basic-navbar-nav">
+          <Navbar.Collapse
+            id="basic-navbar-nav"
+            className="justify-content-end"
+          >
             <Nav>
               <Nav.Link href="#home">Home</Nav.Link>
               <Nav.Link href="#link">About</Nav.Link>
